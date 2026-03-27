@@ -2,37 +2,32 @@
 
 ## 📌 Descripción
 
-Aplicación desarrollada para interpretar lenguaje de señas mediante tecnología web/móvil.
+Aplicación desarrollada para interpretar lenguaje de señas.
 
 ## 🛠️ Tecnologías utilizadas
 
 * JavaScript
-* React / React Native
+* React
 * Node.js
 
 ## 📁 Estructura del proyecto
 
-* src/ → lógica de la aplicación
-* public/ → archivos públicos
-* package.json → configuración del proyecto
+* src/
+* public/
+* package.json
 
-## ▶️ Instrucciones para ejecutar
+## ▶️ Cómo ejecutar
 
 1. Clonar repositorio:
-   git clone https://github.com/Dualvela05099/senas-app.git
+   git clone https://github.com/TU_USUARIO/senas-app.git
 
-2. Entrar al proyecto:
-   cd sign-language-app
-
-3. Instalar dependencias:
+2. Instalar dependencias:
    npm install
 
-4. Ejecutar:
+3. Ejecutar:
    npm start
-# Sign Language App
 
-## 📌 Descripción
-Aplicación para lenguaje de señas.
+## ✨ Cambios recientes
 
-## ✨ Nueva actualización
-Se mejoró la interfaz del usuario.
+* Mejora en interfaz
+* Organización del código
