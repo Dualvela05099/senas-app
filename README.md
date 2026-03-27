@@ -19,7 +19,7 @@ Aplicación desarrollada para interpretar lenguaje de señas.
 ## ▶️ Cómo ejecutar
 
 1. Clonar repositorio:
-   git clone https://github.com/TU_USUARIO/senas-app.git
+   git clone https://github.com/Dualvela05099/senas-app.git
 
 2. Instalar dependencias:
    npm install
