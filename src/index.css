@@ -1,0 +1,51 @@
+/* === GLOBAL STYLES === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-deep:       #0d1f3c;
+  --bg-primary:    #1a3a6b;
+  --bg-secondary:  #1e4080;
+  --bg-card:       #1b3560;
+  --bg-dark:       #0a1628;
+  --accent-blue:   #4a90d9;
+  --accent-bright: #5ba3f5;
+  --accent-red:    #c0392b;
+  --accent-red-h:  #e74c3c;
+  --accent-green:  #27ae60;
+  --text-white:    #ffffff;
+  --text-light:    #b8d4f5;
+  --text-muted:    #7a9cc4;
+  --border:        rgba(90, 140, 200, 0.25);
+  --shadow:        0 8px 32px rgba(0,0,0,0.4);
+  --font-main:     'Outfit', sans-serif;
+  --font-mono:     'JetBrains Mono', monospace;
+  --radius:        14px;
+  --radius-sm:     8px;
+  --transition:    all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-main);
+  background: var(--bg-deep);
+  color: var(--text-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+
+button { cursor: pointer; font-family: var(--font-main); }
+input  { font-family: var(--font-main); }

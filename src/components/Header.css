@@ -1,0 +1,61 @@
+.app-header {
+  background: linear-gradient(180deg, #0d1f3c 0%, #1a3a6b 100%);
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+}
+
+.header-title {
+  text-align: center;
+  padding: 16px 20px 12px;
+  background: linear-gradient(135deg, #1a3a6b, #0d2550);
+}
+
+.header-title h1 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.header-title p {
+  font-size: 0.78rem;
+  color: #7a9cc4;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.tab-bar {
+  display: flex;
+  background: rgba(255,255,255,0.08);
+  margin: 0 16px 12px;
+  border-radius: 10px;
+  padding: 4px;
+  gap: 4px;
+}
+
+.tab-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: #7a9cc4;
+  transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+  background: rgba(255,255,255,0.08);
+  color: #b8d4f5;
+}
+
+.tab-btn.active {
+  background: #ffffff;
+  color: #1a3a6b;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
