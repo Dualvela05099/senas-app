@@ -29,3 +29,10 @@ Aplicación desarrollada para interpretar lenguaje de señas mediante tecnologí
 
 4. Ejecutar:
    npm start
+# Sign Language App
+
+## 📌 Descripción
+Aplicación para lenguaje de señas.
+
+## ✨ Nueva actualización
+Se mejoró la interfaz del usuario.
